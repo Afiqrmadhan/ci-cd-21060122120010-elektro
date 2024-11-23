@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "echo 'Building project...' && mkdir -p out && echo 'Hello from CI/CD Deployment' > out/index.html"
+    "build": "echo \"Error: no build specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
